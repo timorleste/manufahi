@@ -1,0 +1,528 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="timorleste at live dot com | T | 2000 | AudioVisual GIS and Archive Development in Timor Leste">
+    <meta name="description" content="Our mission is to help facilitate the newly independent East-Timor in accessing the voices and the key events in its past and fostering an understanding of its unique cultural heritage; to help unite and secure the identity of the country and its people; and to contribute to the forging of a new democratic nation. To ensure the survival of unique resources which contain and communicate the experience and the story of Timor-Leste and to place these at the service of peace and understanding, in Timor-Leste, Regionally and Internationally.">
+    <meta name="keywords" content="Information, Technology, Media, System, Management, Audio, Visual, Archive, CAMSTL, East-Timor, Timor-Leste, Timor-Lorosa'e">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GENERAL WORKFLOW - The Architecture Based on Information Communications Community Service and User Interaction</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<script type="text/javascript" language="JavaScript" src="newwindow.js"></script>
+</head>
+<body bgcolor="#FFFFFF">
+<center>
+<table width="889" border="0">
+<tr>
+<td valign=top>
+<table width="36" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="m10000.html"><img src="../nav/imzoomout.gif" border="0" title="zoom out" alt="zoom out"></a></td>
+  </tr>
+  <tr>
+    <td><a href="m10000.html"><img src="../nav/imzoombutton100enabled.gif" border="0" title="zoom to 100%" alt="zoom to 100%"></a></td>
+  </tr>
+  <tr>
+    <td><img src="../nav/imzoombutton200disabled.gif" border="0" title="actual zoom level" alt="actual zoom level"></td>
+  </tr>
+  <tr>
+    <td><img src="../nav/imzoomin.gif" border="0" title="zoom in" alt="zoom in"></a></td>
+  </tr>
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td><a href="javascript:PopUpNewWindow('../leg/legend.html')"><img src="../nav/imlegend.gif" border="0" title="show legend" alt="show legend"></a></td>
+  </tr>
+</table>
+</td>
+<td valign=top>
+<table width="853" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="18"><img src="../nav/imnwlow.gif" width="18" height="18" border="0" alt="NW"></td>
+    <td width="817" background="../nav/immapbordern.gif"> <div align="center"><a href="m20100.html"><img src="../nav/imn.gif" width="18" height="18" border="0" alt="N"></a></div></td>
+    <td width="18"><a href="m20101.html"><img src="../nav/imne.gif" width="18" height="18" border="0" alt="NE"></a></td>
+  </tr>
+  <tr>
+    <td width="18" background="../nav/immapborderw.gif"><img src="../nav/imwlow.gif" width="18" height="18" border="0" alt="W"></td>
+    <td width="817"><img src="20000.jpg" ismap usemap="#imageMapm20000" width="817" height="591" border="0"></td>
+    <td width="18" background="../nav/immapbordere.gif"><a href="m20001.html"><img src="../nav/ime.gif" width="18" height="18" border="0" alt="E"></a></td>
+  </tr>
+  <tr>
+    <td width="18"><img src="../nav/imswlow.gif" width="18" height="18" border="0" alt="SW"></td>
+    <td width="817" background="../nav/immapborders.gif"> <div align="center"><img src="../nav/imslow.gif" width="18" height="18" border="0" alt="S"></div></td>
+    <td width="18"><img src="../nav/imselow.gif" width="18" height="18" border="0" alt="SE"></td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-2">
+
+</font>
+</td>
+</tr>
+</table>
+
+
+
+<div align="center">
+    <b>METADATA 
+    
+    
+ 
+  
+  
+  <table border=1 cellspacing=3 cellpadding= style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  background:#B2B2B2;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p align=center style='text-align:center'><b>Category<o:p></o:p></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;background:#B2B2B2;
+  padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p align=center style='text-align:center'><b>Description<o:p></o:p></b></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Coverages<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>This data 
+          element includes information on the spatial extent of the coverage (.e.g., 
+          national, district).<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Comments<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>This field 
+          includes any relevant narrative information related to the coverage<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Resolution<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The pixel 
+          size of the satellite imagery used for mapping.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Minimum 
+          mapping unit<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The minimum 
+          size area of land cover (e.g., 1 hectare) that appears on the maps.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Map 
+          date<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The date the 
+          source data was collected.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Image 
+          date<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The date the 
+          source data was collected<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Image 
+          type<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The type of 
+          image used to create the coverage.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Map 
+          scale<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>Scale of the 
+          map or coverages developed<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Photo 
+          scale<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>Scale of the 
+          airphotos used to create the coverage.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Coordinate 
+          system<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The specific 
+          system used to reference the coverage to a geographic location.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Projection<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The specific 
+          projection used to display the data coverage.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Classification 
+          system<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The classification 
+          system used in preparing land use/land cover maps or marine classes.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>GIS<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The GIS system 
+          the data coverage is provided.<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Data 
+          Type<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The data encoding 
+          format of the coverage<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Next 
+          scheduled update<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>The date for 
+          the next planned update of the data coverage (Full Tetum Language with AudioVisual File Support Planned)<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Availability<o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#F3F3F3;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>This Data 
+          Field contains Relevant Information on the Type of Media, Cost, and 
+          Where Available for the Data (CAMSTL Server Drive No 013 | Under Directory 013 | District Profile | Vector Data Manufahi<o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+     
+
+
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Contact 
+          Name <o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#BCBAB9;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt'>T
+            <o:p></o:p></span></p>      </td>
+    </tr>
+    <tr> 
+      <td width=805 valign=top style='width:128.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;color:#99CC00'>Communication
+              <o:p></o:p></span></b></p>      </td>
+      <td width=634 valign=top style='width:475.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#BCBAB9;padding:0cm 5.4pt 0cm 5.4pt'> 
+        <p><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt'>CAMSTL - SERVER LOCALHOST IN DILI
+            <o:p></o:p></span></p>      </td>
+    </tr>
+  </table>
+  
+
+
+<iframe src="https://docs.google.com/presentation/d/1s1ZpaE1xxrIZLX-NW-oEsThXtFx0WI2Roa3OGMsfnfw/embed?start=true&loop=true&delayms=3000" frameborder="2" width="841" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+
+
+
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
+<map name="imageMapm20000">
+  <area shape="poly" coords="504,295,503,299,500,300,497,299,496,296,495,293,496,288,498,286,501,286,503,288,503,292,504,295" href="../att/manufahi_roads_dbf0.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="387,73,389,76,389,79,387,81,384,81,380,78,378,75,375,72,373,69,372,65,374,63,377,63,381,66,384,70,387,73" href="../att/manufahi_roads_dbf5.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="373,69,370,67,368,64,365,64,362,62,359,59,358,55,355,51,352,49,350,46,350,43,352,40,355,39,358,41,360,43,363,46,365,48,367,51,368,55,371,55,374,57,376,59,382,63,385,65,388,66,392,68,395,68,402,70,405,71,408,73,408,76,406,78,402,78,393,76,390,76,387,75,385,73,382,72,378,70,374,70" href="../att/manufahi_roads_dbf6.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="405,79,401,78,400,75,401,72,404,71,408,71,410,74,410,77,408,79,405,79" href="../att/manufahi_roads_dbf7.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="428,57,425,56,424,53,425,50,428,49,431,50,435,51,439,53,443,54,448,56,457,61,460,62,467,65,472,67,479,70,486,73,488,77,487,80,484,81,476,78,469,75,464,72,457,69,454,68,445,64,440,62,436,60,433,59,429,58" href="../att/manufahi_roads_dbf8.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="492,74,492,77,491,80,488,81,485,80,484,77,484,71,484,64,485,61,488,59,492,60,495,60,498,58,499,54,500,52,503,50,506,51,507,54,506,58,505,62,503,64,500,66,499,70,498,73,495,75" href="../att/manufahi_roads_dbf9.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="509,54,507,57,504,57,501,55,501,52,502,48,503,45,503,42,505,39,508,38,511,39,515,39,517,41,517,45,517,50,517,53,516,57,513,58,510,57,509,54" href="../att/manufahi_roads_dbf10.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="517,55,517,60,517,63,518,66,522,64,525,65,528,67,530,69,534,69,537,70,540,71,544,70,546,67,548,65,552,65,554,63,557,61,560,60,563,62,566,65,568,67,569,69,570,74,568,76,565,76,562,74,558,73,555,74,552,76,550,78,546,79,542,79,539,80,536,80,534,78,530,79,526,80,524,78,522,75,518,74,514,75,511,74,509,71,508,67,509,64,509,59,509,55,510,52,513,50,516,52,517,55" href="../att/manufahi_roads_dbf11.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="443,-1,445,5,446,11,448,18,448,21,448,24,448,28,447,34,446,37,446,40,447,43,449,47,449,50,447,52,444,53,441,53,437,53,433,53,429,54,426,52,425,50,426,47,433,45,436,45,438,42,438,39,439,35,440,29,440,26,440,21,439,13,438,10,436,4,435,0,436,-3,439,-4,442,-3" href="../att/manufahi_roads_dbf12.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="436,27,432,26,430,23,432,20,434,19,439,20,443,20,447,22,448,24,447,27,444,28,440,28,436,27" href="../att/manufahi_roads_dbf13.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="566,77,564,75,564,72,566,70,570,70,572,72,575,73,577,75,577,78,575,80,571,80,568,79" href="../att/manufahi_roads_dbf14.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="580,73,583,72,585,70,588,67,592,67,596,67,599,66,602,64,603,61,606,60,609,61,612,63,612,66,609,68,607,70,604,72,601,74,598,76,594,78,591,77,588,78,585,80,581,81,579,80,577,77,579,74" href="../att/manufahi_roads_dbf15.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="607,69,604,66,604,63,606,61,610,59,613,59,617,60,619,62,622,62,625,60,628,58,632,58,635,56,637,55,640,55,643,57,644,60,647,62,648,65,647,68,644,69,640,68,638,65,634,66,631,66,627,69,623,70,620,71,617,70,613,69,610,69,607,69" href="../att/manufahi_roads_dbf16.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="500,271,501,275,501,279,502,283,503,287,503,292,501,294,498,294,496,292,495,287,494,282,493,278,493,274,492,271,493,267,496,266,498,267,500,271" href="../att/manufahi_roads_dbf17.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="516,373,515,370,516,367,519,366,522,367,523,370,524,374,524,378,523,381,523,384,524,387,521,390,524,397,528,405,530,409,536,418,538,420,542,420,545,420,551,420,559,420,562,420,565,421,568,422,572,425,576,430,581,435,585,439,587,441,590,443,593,446,595,449,596,452,597,456,599,463,600,467,599,471,596,472,593,471,591,465,589,458,589,455,588,452,585,449,583,447,579,445,575,440,572,437,566,431,563,429,558,428,552,428,547,428,542,428,538,428,534,427,531,425,529,423,524,415,522,411,521,409,518,403,517,400,514,393,513,389,513,386,514,382,515,379,516,375" href="../att/manufahi_roads_dbf18.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="531,427,530,423,531,420,534,419,537,420,539,425,540,430,542,439,544,444,545,448,546,451,550,453,553,453,559,454,562,455,566,456,571,458,573,460,575,463,578,467,581,468,586,467,590,465,595,464,599,465,600,468,599,471,595,472,588,474,584,476,581,477,577,476,575,474,572,472,569,468,567,465,563,464,560,463,557,462,553,461,550,461,547,460,544,459,541,457,538,454,537,450,536,447,535,441,532,433,531,427" href="../att/manufahi_roads_dbf19.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="637,474,634,473,631,471,627,470,624,468,620,467,616,466,612,467,608,468,603,470,600,471,597,472,593,471,592,468,593,465,596,464,599,463,605,461,608,460,613,458,617,458,621,459,625,460,629,461,633,463,638,466,642,467,644,469,644,473,642,475,639,475" href="../att/manufahi_roads_dbf20.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="441,0,442,3,442,8,440,15,439,19,438,24,436,33,436,37,435,41,434,45,433,50,432,54,430,57,428,60,427,63,424,65,421,67,418,68,414,69,412,72,410,76,409,80,406,81,403,81,401,79,401,76,403,73,404,70,406,68,408,65,410,62,413,61,416,58,419,56,422,54,424,52,425,48,426,44,427,41,427,37,428,33,430,24,431,18,432,13,433,8,434,5,434,2,434,-2,436,-4,439,-4,441,-2" href="../att/manufahi_roads_dbf24.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="411,80,409,84,406,88,403,88,400,85,400,82,402,80,405,74,407,72,410,72,412,74,411,80" href="../att/manufahi_roads_dbf25.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="409,72,412,74,412,77,410,80,407,80,404,78,403,75,404,72,407,71" href="../att/manufahi_roads_dbf26.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="411,73,414,75,415,77,414,80,411,81,408,80,405,77,405,74,407,72,410,72" href="../att/manufahi_roads_dbf27.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="389,76,392,76,395,77,396,80,395,82,386,85,383,84,382,81,381,78,382,75,385,74,388,75" href="../att/manufahi_roads_dbf28.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="392,76,397,75,401,74,405,73,408,75,409,77,407,81,404,82,399,83,393,84,390,82,388,80,390,77" href="../att/manufahi_roads_dbf29.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="405,106,401,108,399,107,396,105,393,103,393,100,395,98,399,98,403,99,405,100,407,103,405,106" href="../att/manufahi_roads_dbf30.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="400,79,401,75,404,74,407,75,408,78,408,81,408,86,409,90,409,94,409,98,408,101,408,105,410,108,412,111,415,112,416,116,419,120,422,126,426,134,429,138,430,142,430,145,426,148,427,150,430,153,433,154,437,155,441,156,442,159,442,164,443,167,444,170,443,173,440,174,438,173,436,170,435,165,430,164,428,161,425,159,422,157,418,155,416,153,415,150,415,146,417,143,420,141,419,138,416,131,412,124,409,120,406,119,404,117,401,115,400,112,401,109,400,106,399,103,400,99,401,96,401,92,400,87,400,84,400,81" href="../att/manufahi_roads_dbf31.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="438,174,436,170,438,167,440,166,443,167,447,169,450,176,452,181,454,184,457,184,460,186,464,186,468,187,470,189,475,194,478,200,481,203,484,209,486,212,487,216,488,219,488,225,490,232,491,239,490,243,490,248,491,252,493,255,494,257,496,260,497,263,498,266,501,269,505,272,508,275,509,278,512,284,513,287,513,292,515,295,518,296,519,300,519,304,518,307,518,312,518,316,519,323,520,327,521,337,521,341,524,344,525,346,526,349,525,353,524,356,522,360,522,364,523,368,522,372,520,374,517,374,515,372,515,368,514,365,514,362,514,359,515,356,516,353,518,350,516,347,514,344,513,338,512,331,511,324,510,317,510,313,510,309,511,303,509,301,506,297,505,293,505,288,503,284,502,281,496,275,493,273,491,270,490,267,489,264,487,261,486,258,484,255,483,252,482,248,482,245,482,241,483,235,481,228,480,220,479,216,477,213,474,207,472,204,469,200,466,196,461,194,458,194,455,192,450,192,448,190,446,187,444,184,443,181,441,176,439,174" href="../att/manufahi_roads_dbf32.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="762,388,765,386,768,388,769,390,768,393,765,395,762,393,761,391,762,388" href="../att/manufahi_roads_dbf35.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="814,406,817,405,820,406,821,409,819,413,817,416,814,418,811,420,809,422,806,424,802,425,798,424,796,421,794,418,792,415,790,413,787,408,785,406,781,402,779,399,777,402,774,405,771,406,768,406,762,404,758,406,755,410,753,413,750,416,745,423,743,425,739,428,737,429,733,432,730,434,727,436,723,438,721,440,718,441,714,442,711,443,706,443,703,443,698,443,695,443,692,445,693,448,692,451,690,454,688,456,684,458,681,459,677,460,673,462,670,463,668,465,666,468,662,470,658,472,654,473,648,475,645,475,641,475,637,474,636,471,637,468,640,467,643,467,650,466,656,464,660,463,662,459,665,456,669,454,673,453,677,452,680,451,683,449,684,446,684,442,686,440,688,437,691,435,694,435,698,435,702,435,706,435,709,435,714,433,717,433,720,431,723,428,727,426,731,424,733,421,737,420,739,417,743,413,746,409,748,406,751,402,753,399,756,396,764,397,768,398,771,396,773,394,776,392,779,390,782,390,785,392,787,396,789,399,793,403,795,406,798,410,800,412,802,416,806,413,809,412,812,410,814,407" href="../att/manufahi_roads_dbf38.html" target="AttributesFrame" title="Trail" alt="Trail">
+  <area shape="poly" coords="507,319,504,318,503,315,504,312,507,311,510,312,511,315,510,318,507,319" href="../att/clip8_dbf0.html" target="AttributesFrame" title="" alt="">
+  <area shape="poly" coords="417,66,412,67,408,66,407,63,408,60,416,58,422,58,427,59,432,60,437,63,440,67,444,69,449,72,453,75,456,78,458,82,459,87,461,89,463,93,463,98,462,102,463,105,464,111,466,115,471,119,475,120,479,123,479,126,476,128,470,128,467,126,464,124,460,121,457,116,456,112,456,108,454,106,454,101,455,97,454,94,452,91,451,85,447,81,444,78,440,76,436,74,432,70,425,67,422,66,417,66" href="../att/clip8_dbf1.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="504,1,505,4,507,7,509,11,510,14,510,20,511,28,511,32,511,37,510,42,512,45,512,52,511,56,511,62,508,69,509,73,509,80,509,89,508,93,506,97,506,103,505,107,502,110,501,113,500,116,495,120,492,120,486,121,482,124,478,127,478,132,482,133,486,133,490,134,492,138,492,141,491,146,489,151,484,155,477,156,475,161,473,164,469,164,467,162,468,156,467,152,468,150,471,148,477,148,480,148,482,146,484,141,477,141,474,139,471,136,470,128,471,123,478,118,482,115,488,111,491,111,494,108,496,105,498,103,497,99,497,96,498,93,501,88,501,80,501,75,500,69,500,66,503,61,503,56,504,51,504,48,503,44,503,36,503,32,502,24,502,20,502,16,500,11,498,8,497,4,495,0,496,-3,499,-4,502,-3,504,1" href="../att/clip8_dbf2.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="393,100,396,102,398,104,401,105,408,106,412,108,415,109,419,111,424,115,429,119,431,121,436,125,439,128,442,130,445,132,448,136,451,139,457,143,462,147,465,149,470,151,474,158,475,161,479,163,482,167,481,172,478,176,473,179,476,180,480,184,484,187,491,186,498,187,504,188,507,189,511,196,512,202,509,205,515,209,517,211,518,217,520,221,522,224,523,231,526,233,526,236,524,238,521,238,517,235,515,228,513,226,510,220,510,215,505,213,501,208,502,202,504,200,501,195,497,195,492,194,484,195,476,191,472,187,466,185,462,181,461,177,462,174,468,172,473,170,468,166,467,163,465,158,461,156,457,154,453,150,450,148,447,146,442,141,439,138,436,136,431,131,426,127,423,125,420,122,415,118,412,117,409,115,401,113,397,114,394,112,391,109,388,107,386,105,386,102,388,100,393,100" href="../att/clip8_dbf3.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="576,9,575,4,577,-2,580,-4,583,-3,584,0,583,4,583,7,585,13,586,20,583,29,579,38,577,43,576,50,577,61,571,76,569,79,569,89,572,94,578,104,578,115,578,123,566,137,550,150,543,153,541,156,541,162,542,169,544,176,544,189,544,195,544,200,541,207,534,215,535,220,537,227,536,235,534,238,527,236,529,241,526,255,521,266,517,268,512,266,512,271,515,275,519,283,521,291,520,298,517,305,511,313,508,314,505,313,504,310,510,302,512,296,513,292,512,286,508,280,505,276,503,272,503,269,505,261,507,258,510,258,515,259,519,253,521,243,519,238,518,233,519,230,525,228,529,229,527,223,526,220,526,213,534,203,536,199,536,195,536,189,537,177,535,171,533,163,532,155,533,152,537,147,546,143,560,132,570,121,570,115,570,107,565,98,562,92,561,78,564,72,569,61,568,50,569,41,571,35,575,26,578,19,578,15,576,9" href="../att/clip8_dbf4.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="330,132,329,126,330,123,333,121,336,123,338,130,338,134,339,138,340,142,341,146,339,151,338,154,338,162,339,167,342,169,347,172,351,176,354,179,358,182,362,186,363,188,362,194,362,199,362,203,363,206,361,212,359,214,356,214,353,212,354,206,353,199,354,194,355,190,349,185,346,182,343,179,338,176,333,172,330,165,329,156,331,151,332,148,332,143,332,140,331,136,330,132" href="../att/clip8_dbf5.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="287,151,286,155,283,156,280,155,279,152,280,149,283,148,286,149" href="../att/clip8_dbf6.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="287,150,286,154,283,155,280,154,279,151,280,148,283,147,286,148" href="../att/clip8_dbf7.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="282,142,283,145,283,148,281,151,278,151,276,148,275,146,275,142,277,140,280,140" href="../att/clip8_dbf8.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,140,282,142,282,145,280,148,277,148,274,145,274,142,277,140,280,140" href="../att/clip8_dbf9.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,142,279,145,276,146,274,145,272,142,274,139,276,138,279,139" href="../att/clip8_dbf10.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,142,279,145,276,146,274,145,272,140,273,137,276,136,279,137,280,142" href="../att/clip8_dbf11.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,139,279,142,276,144,273,142,272,140,273,135,276,134,279,135,280,138" href="../att/clip8_dbf12.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="278,134,280,138,279,141,276,142,273,141,271,137,272,134,275,133,278,134" href="../att/clip8_dbf13.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="278,134,278,138,276,140,273,140,270,137,270,133,272,131,275,131,278,134" href="../att/clip8_dbf14.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="279,133,278,136,274,138,271,137,270,134,271,131,274,129,277,129,279,131" href="../att/clip8_dbf15.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,131,278,134,276,135,273,134,272,131,273,128,276,127,278,128" href="../att/clip8_dbf16.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="279,127,276,130,273,130,271,128,271,125,273,122,276,122,279,124,279,127" href="../att/clip8_dbf17.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="271,127,270,123,271,120,274,119,277,120,278,123,278,126,276,128,273,128" href="../att/clip8_dbf18.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="279,119,280,123,277,126,273,126,271,124,271,121,274,118,277,118" href="../att/clip8_dbf19.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="271,122,270,120,271,117,274,116,277,117,279,119,279,122,277,125,274,125,271,122" href="../att/clip8_dbf20.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,119,278,122,274,122,271,120,271,117,274,114,278,114,280,116" href="../att/clip8_dbf21.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="298,45,298,48,297,51,299,56,300,59,300,63,301,67,301,72,299,76,297,80,296,84,296,88,293,94,292,97,291,100,288,105,287,108,285,111,284,115,283,118,278,120,274,119,272,116,274,114,276,111,277,108,280,104,284,97,286,91,288,87,288,82,290,77,292,73,293,69,292,65,291,61,291,58,290,55,288,52,289,48,289,44,290,41,293,40,296,41,298,45" href="../att/clip8_dbf22.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="503,327,504,323,506,321,509,321,511,323,511,327,510,331,507,332,505,331,503,328" href="../att/clip8_dbf23.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="511,331,510,335,507,337,504,335,503,332,504,328,506,326,509,326,511,328,511,331" href="../att/clip8_dbf24.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="511,336,508,340,505,340,503,337,503,334,505,331,508,331,511,333,511,336" href="../att/clip8_dbf25.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="509,341,507,344,504,344,502,341,502,338,503,334,506,333,509,334,510,337,510,340" href="../att/clip8_dbf26.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="502,338,504,336,507,336,509,338,509,342,507,344,504,344,501,342,501,339" href="../att/clip8_dbf27.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="505,354,503,356,500,356,498,354,498,351,501,341,503,339,506,339,508,341,506,351,505,354" href="../att/clip8_dbf28.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="503,357,500,359,497,359,495,357,495,354,497,351,500,349,503,349,505,351,505,354" href="../att/clip8_dbf29.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="494,362,490,362,488,360,488,357,490,355,495,353,497,352,500,353,501,356,500,359,494,362" href="../att/clip8_dbf30.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="481,364,477,363,475,361,475,358,477,356,481,356,486,355,490,356,491,359,490,362,482,364" href="../att/clip8_dbf31.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="472,355,475,355,479,358,479,361,477,363,472,363,469,362,467,359,469,356,472,355" href="../att/clip8_dbf32.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="468,356,472,355,474,357,474,360,471,363,468,363,466,361,466,358,468,356" href="../att/clip8_dbf33.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="469,365,464,365,462,363,462,360,464,358,468,356,471,358,472,360,471,363" href="../att/clip8_dbf34.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="463,358,466,358,468,360,468,363,465,366,461,366,459,364,459,361,463,358" href="../att/clip8_dbf35.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="457,362,461,361,463,362,465,365,463,368,461,369,458,368,457,365" href="../att/clip8_dbf36.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="457,363,462,362,464,364,464,368,461,370,458,370,456,368,456,365" href="../att/clip8_dbf37.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="452,372,453,369,455,365,458,364,461,365,462,368,460,372,459,375,456,376,453,375,452,372" href="../att/clip8_dbf38.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="461,374,461,377,459,379,456,379,453,377,453,374,454,370,456,369,459,370,461,373" href="../att/clip8_dbf39.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="462,379,461,382,458,383,455,382,454,379,455,376,458,374,461,376,462,378" href="../att/clip8_dbf40.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="462,385,459,387,456,387,454,385,454,382,456,380,459,380,461,382,462,385" href="../att/clip8_dbf41.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="459,389,456,391,453,390,452,387,454,383,456,380,459,380,461,382,461,386,460,389" href="../att/clip8_dbf42.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="456,394,452,396,449,395,448,392,449,389,452,386,455,384,458,385,459,388,457,392" href="../att/clip8_dbf43.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="447,394,448,391,451,389,454,391,455,393,454,396,453,399,450,401,447,399,446,397,447,394" href="../att/clip8_dbf44.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="446,399,447,395,450,394,453,395,454,400,453,404,450,405,447,404,446,399" href="../att/clip8_dbf45.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="455,406,454,409,451,411,448,409,447,407,448,403,451,402,454,403" href="../att/clip8_dbf46.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="448,412,449,409,452,408,455,409,457,416,455,420,453,421,450,420,448,412" href="../att/clip8_dbf47.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="450,425,451,421,454,420,457,421,459,427,457,431,455,432,452,431,450,425" href="../att/clip8_dbf48.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="453,436,452,432,451,429,454,426,457,426,459,429,460,433,461,437,458,439,455,439,453,437" href="../att/clip8_dbf49.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="467,448,469,455,468,459,465,460,463,459,459,451,459,448,461,445,464,445,466,448" href="../att/clip8_dbf50.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="470,456,470,459,469,462,466,463,464,462,462,458,462,455,464,453,467,453,469,455" href="../att/clip8_dbf51.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="463,463,464,459,467,458,470,459,471,463,470,467,467,468,465,467,463,463" href="../att/clip8_dbf52.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="473,470,472,474,469,475,466,474,465,471,464,466,465,462,468,461,470,462,473,469" href="../att/clip8_dbf53.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="472,478,468,480,465,479,464,476,465,473,467,470,470,470,472,472,472,477" href="../att/clip8_dbf54.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="464,478,465,474,468,473,471,474,472,477,470,481,468,482,465,481" href="../att/clip8_dbf55.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="467,486,465,482,465,479,467,476,470,476,473,480,476,483,476,486,474,489,471,489,467,486" href="../att/clip8_dbf56.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="475,492,473,488,474,485,477,484,480,485,481,488,480,491,477,492" href="../att/clip8_dbf57.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="487,488,499,493,501,497,500,500,497,501,484,495,479,493,475,491,474,489,475,486,478,485,482,486,487,488" href="../att/clip8_dbf58.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="508,510,505,507,501,503,498,501,498,498,500,495,504,495,508,499,511,501,514,505,517,509,517,513,515,515,512,515,508,510" href="../att/clip8_dbf59.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="523,519,522,522,519,524,516,522,515,520,516,516,519,515,522,516" href="../att/clip8_dbf60.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="278,157,279,154,282,153,285,154,286,157,285,160,282,162,280,160,278,157" href="../att/clip8_dbf61.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="287,160,286,164,283,165,280,164,279,161,280,157,283,156,286,157,287,160" href="../att/clip8_dbf62.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="279,162,280,159,283,158,286,159,287,162,286,166,284,168,281,168,279,166,279,162" href="../att/clip8_dbf63.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="286,169,284,171,281,171,279,169,279,165,280,162,283,161,286,162,287,166" href="../att/clip8_dbf64.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="285,168,286,172,283,174,280,174,277,171,277,167,280,164,283,164,285,167" href="../att/clip8_dbf65.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="280,174,279,171,280,168,283,167,286,168,287,171,286,174,283,175" href="../att/clip8_dbf66.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="287,172,286,175,283,176,280,175,279,172,280,168,283,167,286,168,287,172" href="../att/clip8_dbf67.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="278,173,279,170,282,168,286,170,287,172,285,177,282,178,279,177,278,173" href="../att/clip8_dbf68.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="278,174,281,171,284,171,286,173,286,177,284,179,281,179,279,177" href="../att/clip8_dbf69.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="279,179,278,175,281,173,284,173,287,175,287,179,285,182,282,182,279,179" href="../att/clip8_dbf70.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="282,182,280,178,281,176,284,174,287,176,289,179,288,182,285,183,282,182" href="../att/clip8_dbf71.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="285,182,283,179,284,176,287,175,290,176,291,179,290,182,287,183" href="../att/clip8_dbf72.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="296,179,298,181,298,185,296,187,293,187,289,185,288,182,289,179,292,178,296,179" href="../att/clip8_dbf73.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="295,188,292,185,292,182,294,180,297,180,300,182,301,185,300,188,297,189" href="../att/clip8_dbf74.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="307,187,308,190,307,193,304,194,301,192,298,189,298,186,300,184,303,184,306,186" href="../att/clip8_dbf75.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="310,190,312,192,312,196,310,199,307,199,304,195,302,192,304,189,306,188,309,190" href="../att/clip8_dbf76.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="306,198,306,194,308,192,311,192,313,195,313,198,311,200,308,200" href="../att/clip8_dbf77.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="311,202,308,200,307,198,308,195,311,194,314,195,316,197,316,200,314,202" href="../att/clip8_dbf78.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="318,193,321,193,325,195,325,198,323,201,319,201,316,200,315,197,316,194" href="../att/clip8_dbf79.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="322,201,320,199,320,196,322,194,325,194,328,196,328,199,326,202,322,201" href="../att/clip8_dbf80.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="326,203,322,200,322,197,325,195,328,195,330,197,330,200,328,202" href="../att/clip8_dbf81.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="336,199,338,201,338,204,336,206,333,206,330,205,328,203,327,200,328,197,331,196,333,197,336,199" href="../att/clip8_dbf82.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="334,207,332,205,332,202,334,199,337,199,340,201,341,204,340,207,337,208,334,207" href="../att/clip8_dbf83.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="340,210,337,208,335,205,336,202,339,201,343,202,346,205,346,208,344,210,341,210" href="../att/clip8_dbf84.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="345,203,348,205,348,208,346,211,343,211,340,208,340,205,343,203" href="../att/clip8_dbf85.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="347,212,344,211,341,208,341,205,343,203,348,204,352,206,352,209,350,211" href="../att/clip8_dbf86.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="353,213,350,212,348,210,348,207,350,204,354,204,357,206,359,209,357,212,355,213" href="../att/clip8_dbf87.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="360,208,362,211,361,214,358,215,355,214,352,212,351,209,352,206,355,205,359,207" href="../att/clip8_dbf88.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="355,214,355,210,357,208,360,208,362,210,362,214,360,216,357,216,355,214" href="../att/clip8_dbf89.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="363,212,363,215,361,217,358,217,356,215,356,212,358,209,361,209,363,212" href="../att/clip8_dbf90.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="363,213,364,216,361,218,358,218,356,216,356,213,358,210,361,210,363,213" href="../att/clip8_dbf91.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="364,214,364,218,362,220,359,220,356,218,356,213,358,211,361,211,364,213" href="../att/clip8_dbf92.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="356,217,357,213,360,212,363,213,364,217,363,220,360,221,357,220,356,217" href="../att/clip8_dbf93.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="364,224,362,227,359,227,357,225,357,221,358,218,361,216,363,218,365,221,364,224" href="../att/clip8_dbf94.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="364,226,361,228,358,228,356,226,356,223,359,220,362,220,364,222,364,226" href="../att/clip8_dbf95.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="354,228,356,225,358,223,361,225,362,227,362,230,359,233,356,233,354,230" href="../att/clip8_dbf96.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="355,233,354,230,355,227,358,225,361,227,362,230,362,233,360,235,357,235" href="../att/clip8_dbf97.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="361,237,357,235,355,232,356,229,359,228,361,229,364,231,364,234,362,236" href="../att/clip8_dbf98.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="360,228,364,228,367,230,367,233,364,235,361,236,358,233,358,230" href="../att/clip8_dbf99.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="363,227,366,225,369,227,370,229,369,232,366,235,362,235,360,232,360,229,362,227" href="../att/clip8_dbf100.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="376,234,374,237,371,238,368,237,367,234,368,231,371,228,374,228,376,230,376,234" href="../att/clip8_dbf101.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="367,240,367,236,369,234,372,234,375,236,375,240,373,242,370,242,367,240" href="../att/clip8_dbf102.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="372,243,369,241,367,239,369,236,371,235,374,236,377,238,377,241,375,243,372,243" href="../att/clip8_dbf103.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="374,244,370,241,370,238,373,236,376,236,380,238,380,242,377,244,374,244" href="../att/clip8_dbf104.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="379,235,383,235,385,237,385,241,383,243,379,243,376,241,376,238,379,236" href="../att/clip8_dbf105.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="389,240,386,239,385,236,386,234,389,232,392,233,393,236,392,239" href="../att/clip8_dbf106.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="392,232,396,233,397,236,396,239,393,240,390,240,386,239,385,236,386,233,390,232" href="../att/clip8_dbf107.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="397,234,399,237,398,240,395,241,392,240,391,237,392,234,395,233" href="../att/clip8_dbf108.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="393,240,393,237,395,235,398,235,401,237,401,240,398,242,395,242" href="../att/clip8_dbf109.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="401,238,401,241,399,243,396,243,394,241,394,238,396,235,399,235,401,238" href="../att/clip8_dbf110.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="395,244,394,240,395,237,398,236,401,237,402,240,402,243,400,245,397,245" href="../att/clip8_dbf111.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="408,254,408,250,410,248,413,248,416,251,416,255,414,257,411,257,408,254" href="../att/clip8_dbf112.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="420,259,418,259,415,258,414,255,415,253,418,251,421,251,423,253,423,256,420,259" href="../att/clip8_dbf113.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="424,256,420,255,419,252,420,250,424,248,427,249,429,252,427,255,424,256" href="../att/clip8_dbf114.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="430,249,433,250,435,253,433,256,431,257,426,256,423,254,423,250,425,248,430,249" href="../att/clip8_dbf115.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="431,257,428,255,428,252,430,250,434,250,436,252,436,255,434,257,431,257" href="../att/clip8_dbf116.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="433,258,430,256,429,254,430,251,433,250,436,250,438,252,438,255,436,257,433,258" href="../att/clip8_dbf117.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="441,246,445,245,447,247,447,250,442,254,438,257,435,257,432,255,432,252,437,248,441,246" href="../att/clip8_dbf118.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="445,244,448,244,451,246,451,249,448,251,445,252,442,251,441,248,442,245" href="../att/clip8_dbf119.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="457,246,460,248,460,251,457,253,454,253,451,251,451,248,453,246,457,246" href="../att/clip8_dbf120.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="455,253,452,250,453,247,456,246,459,247,461,250,459,253,457,254" href="../att/clip8_dbf121.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="461,248,463,251,462,254,459,255,456,254,453,252,453,249,455,246,459,246" href="../att/clip8_dbf122.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="457,255,456,251,458,249,461,249,465,252,465,256,463,258,460,258,457,255" href="../att/clip8_dbf123.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="468,256,468,260,466,262,463,262,461,260,459,257,459,254,461,252,464,252,467,255" href="../att/clip8_dbf124.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="461,260,462,256,465,255,467,256,469,259,467,262,465,263,462,262" href="../att/clip8_dbf125.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="469,261,468,265,465,266,462,265,461,262,462,258,465,257,468,258,469,261" href="../att/clip8_dbf126.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="466,269,463,268,461,265,463,262,465,261,469,262,471,264,471,267,469,269,466,269" href="../att/clip8_dbf127.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="481,265,483,269,482,271,479,273,474,270,471,270,468,270,466,267,466,264,468,262,471,262,475,262,478,263,481,265" href="../att/clip8_dbf128.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="485,268,487,270,487,274,485,276,482,276,479,274,478,271,479,268,482,267,485,268" href="../att/clip8_dbf129.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="496,281,495,284,492,285,489,284,488,281,482,276,480,272,481,269,484,268,491,272,495,276,496,279" href="../att/clip8_dbf130.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="488,282,490,278,493,278,496,280,496,284,493,286,490,286,488,284" href="../att/clip8_dbf131.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="488,284,489,280,492,279,495,280,496,284,495,288,493,289,490,288,488,284" href="../att/clip8_dbf132.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="490,293,490,289,492,287,495,287,498,290,498,294,496,296,493,296,490,293" href="../att/clip8_dbf133.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="495,298,492,296,492,292,494,290,497,290,500,292,502,294,502,297,500,299,495,298" href="../att/clip8_dbf134.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="502,292,505,293,506,296,505,299,502,300,499,300,495,298,494,295,495,293,498,291,501,292" href="../att/clip8_dbf135.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="502,300,503,297,506,296,509,297,510,300,509,303,506,304,503,303" href="../att/clip8_dbf136.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="502,302,503,298,506,297,509,298,511,302,510,306,507,307,504,306,502,302" href="../att/clip8_dbf137.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="503,305,504,302,507,301,510,302,511,308,510,311,507,312,504,311,503,305" href="../att/clip8_dbf138.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="503,310,504,306,507,304,510,306,511,309,510,312,507,313,505,312" href="../att/clip8_dbf139.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="503,317,503,314,504,310,505,308,508,306,511,308,512,310,511,314,511,317,509,321,507,322,504,321,503,318" href="../att/clip8_dbf140.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="503,319,504,316,507,315,509,316,511,319,509,322,507,323,504,322,503,319" href="../att/clip8_dbf141.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="511,323,510,326,507,327,504,326,503,322,503,318,505,316,508,316,510,318,511,322" href="../att/clip8_dbf142.html" target="AttributesFrame" title="caraulun" alt="caraulun">
+  <area shape="poly" coords="786,78,789,80,793,82,797,85,803,90,807,94,810,102,811,106,810,108,807,110,804,108,802,105,801,99,798,96,792,91,789,89,785,87,779,89,769,89,767,88,765,85,765,82,763,78,759,72,754,69,751,66,743,64,736,59,732,58,725,58,717,58,714,58,710,56,702,54,694,52,690,49,685,49,677,42,676,36,667,32,665,29,666,26,669,25,679,29,682,31,683,33,684,38,687,41,692,42,697,44,704,46,712,48,716,50,722,48,725,49,733,50,738,51,746,56,754,58,760,63,764,67,769,73,773,78,776,81,783,78,786,78" href="../att/clip8_dbf208.html" target="AttributesFrame" title="laclo do sul" alt="laclo do sul">
+  <area shape="poly" coords="808,97,814,91,819,90,821,93,821,96,814,103,811,107,809,116,806,124,802,130,801,134,802,144,805,153,808,158,815,160,819,161,821,163,821,166,819,168,813,168,805,166,798,157,794,146,793,134,794,127,799,120,801,114,803,105,807,98" href="../att/clip8_dbf209.html" target="AttributesFrame" title="laclo do sul" alt="laclo do sul">
+  <area shape="poly" coords="780,7,780,0,781,-3,784,-4,787,-3,788,0,788,6,792,15,796,20,806,22,815,32,819,46,821,58,820,61,817,62,814,61,812,48,809,36,803,30,793,27,786,21,781,8" href="../att/clip8_dbf209.html" target="AttributesFrame" title="laclo do sul" alt="laclo do sul">
+  <area shape="poly" coords="679,0,676,2,673,6,672,9,671,12,669,15,670,18,672,21,669,23,665,23,662,25,659,24,656,25,652,23,650,21,647,19,645,22,642,25,641,29,645,31,646,34,646,39,649,41,652,43,651,49,650,52,648,54,645,57,640,61,638,63,634,65,630,66,626,67,623,69,619,69,613,68,609,68,606,70,603,71,602,75,599,76,596,76,592,78,591,81,589,83,586,85,585,88,582,89,579,91,576,93,574,96,570,98,566,96,563,94,562,91,561,86,561,83,561,79,564,75,568,71,571,66,571,61,571,57,570,52,569,49,569,44,570,41,572,39,575,34,575,31,577,26,579,22,580,18,579,15,576,12,576,9,577,4,577,0,679,0" href="../att/pat_dbf14.html" target="AttributesFrame" title="FAHINIHAN" alt="FAHINIHAN">
+  <area shape="poly" coords="496,0,497,3,498,6,499,10,501,15,503,17,503,21,503,24,504,28,504,33,503,37,503,41,504,45,503,48,504,53,502,55,500,58,497,58,492,60,486,62,482,62,479,60,475,58,472,54,470,51,463,53,458,55,450,55,447,54,444,54,440,53,436,52,430,51,423,53,420,54,416,53,415,50,413,46,410,44,407,41,401,37,398,34,397,30,392,28,389,27,387,25,382,24,379,23,374,20,367,20,363,20,359,17,355,17,351,17,347,17,343,17,340,20,336,23,333,20,332,18,331,15,329,12,327,8,323,7,320,6,318,3,315,2,311,1,308,0,496,0" href="../att/pat_dbf17.html" target="AttributesFrame" title="HOLARUA" alt="HOLARUA">
+  <area shape="poly" coords="577,0,577,4,576,9,576,12,579,15,580,18,579,22,577,26,575,31,575,34,572,39,570,41,569,44,569,49,570,52,571,57,571,61,571,66,568,71,566,73,562,77,561,82,561,85,562,91,563,94,566,96,570,98,571,101,571,105,571,108,572,112,573,115,573,119,573,122,571,125,568,128,566,131,563,134,561,136,558,141,557,144,553,148,551,149,547,150,543,149,539,148,535,150,533,153,533,157,534,161,533,164,534,168,536,171,537,175,538,180,539,184,537,187,537,190,534,188,532,185,529,183,526,181,524,177,521,175,519,171,515,169,510,169,504,168,500,168,500,165,502,160,505,154,506,150,508,144,509,139,508,136,507,132,506,126,504,121,502,115,500,109,500,105,498,101,499,98,501,95,503,89,503,83,504,79,503,73,501,71,502,66,504,63,504,58,505,54,503,50,503,47,504,43,503,39,504,35,505,31,504,26,503,23,504,19,502,17,500,12,498,8,498,5,496,0,577,0" href="../att/pat_dbf18.html" target="AttributesFrame" title="TUTULURO" alt="TUTULURO">
+  <area shape="poly" coords="817,168,813,167,809,164,806,160,804,156,803,153,801,147,800,144,801,140,802,133,804,128,805,125,807,121,809,116,811,112,815,106,817,103,817,168" href="../att/pat_dbf19.html" target="AttributesFrame" title="DOTIK" alt="DOTIK">
+  <area shape="poly" coords="817,57,816,53,815,48,814,43,813,39,812,34,808,30,806,28,801,27,796,25,794,23,790,18,788,15,786,12,785,6,785,0,817,0,817,57" href="../att/pat_dbf19.html" target="AttributesFrame" title="DOTIK" alt="DOTIK">
+  <area shape="poly" coords="785,0,785,4,784,7,780,6,776,6,772,3,764,10,762,13,759,16,756,17,753,20,750,22,747,25,747,29,746,33,747,37,746,41,744,44,742,47,742,51,741,55,738,57,735,57,731,57,725,56,720,55,716,55,713,55,709,54,704,53,700,51,697,49,694,48,690,44,687,44,684,45,680,42,680,38,677,35,675,32,672,32,669,33,669,29,669,26,665,27,662,29,662,25,665,23,668,22,672,22,670,18,668,16,670,13,672,9,673,6,675,2,678,2,785,0" href="../att/pat_dbf20.html" target="AttributesFrame" title="AITUHA" alt="AITUHA">
+  <area shape="poly" coords="307,0,311,1,315,2,318,3,320,6,323,7,327,8,329,12,331,15,332,18,333,20,334,23,338,22,342,19,344,17,349,17,355,17,359,17,363,19,367,20,372,20,377,21,382,24,386,25,389,27,392,28,396,30,398,34,401,37,407,41,410,44,413,46,415,50,416,53,420,54,423,53,427,51,434,52,438,53,442,54,447,54,450,55,457,55,463,53,469,51,472,53,473,56,478,59,481,62,486,62,490,61,494,58,498,58,501,58,503,54,504,58,504,62,502,66,501,69,503,73,504,78,503,83,503,86,502,92,500,96,498,99,499,102,500,106,497,108,495,111,494,114,492,117,489,116,485,117,482,119,477,122,475,125,473,128,471,125,467,124,465,121,462,120,458,119,454,118,450,121,446,122,443,122,439,121,434,120,430,120,426,119,423,117,420,115,418,112,414,108,412,105,409,101,406,97,403,96,399,94,395,93,391,93,388,94,383,94,380,90,377,87,371,86,368,86,363,86,360,85,355,84,352,86,349,87,345,85,341,85,337,83,333,83,331,86,327,89,324,90,319,89,319,84,313,85,309,86,306,86,302,86,296,86,290,86,285,87,282,88,277,90,271,91,267,91,268,87,268,84,268,81,268,77,270,74,271,71,271,67,269,64,270,61,272,58,274,53,275,49,273,45,273,41,276,38,278,34,279,30,278,27,279,23,278,19,275,17,274,14,273,10,275,6,277,4,278,0,307,0" href="../att/pat_dbf22.html" target="AttributesFrame" title="LETEFOHO" alt="LETEFOHO">
+  <area shape="poly" coords="660,26,663,28,667,27,670,27,668,30,671,32,674,32,677,34,680,38,680,41,681,44,685,45,688,44,692,46,697,49,700,51,704,53,709,54,713,55,716,55,720,55,723,56,728,57,735,57,738,57,741,55,742,51,742,47,744,44,746,42,746,39,747,35,746,32,747,28,748,24,752,21,755,18,758,17,762,13,764,10,770,3,774,6,778,6,783,6,786,10,788,15,790,18,792,21,796,25,801,27,805,28,808,30,811,33,813,37,814,43,815,48,816,53,817,57,817,103,815,106,812,110,809,116,808,119,805,125,804,128,799,129,796,130,792,131,790,129,788,125,784,119,783,116,780,113,776,110,774,108,770,106,767,106,762,108,756,112,750,116,745,117,739,117,735,115,731,115,729,117,723,119,719,121,716,123,712,126,708,129,701,132,696,135,693,138,694,142,694,147,694,150,695,154,695,160,695,163,695,168,693,170,692,174,692,178,693,181,695,184,698,186,698,190,698,194,695,197,692,201,690,205,691,209,690,212,691,215,690,219,691,222,695,221,697,224,701,226,702,229,700,232,702,237,704,240,708,243,708,246,711,248,713,249,711,253,711,256,712,259,712,263,711,268,711,271,714,267,717,268,720,268,723,271,722,274,718,274,717,277,716,280,720,283,717,284,719,287,720,291,721,295,723,298,726,299,724,302,719,302,721,306,720,310,724,312,729,310,735,306,738,304,742,301,746,300,749,300,757,301,760,302,763,305,760,309,761,313,759,317,759,320,759,323,758,327,757,330,757,334,761,335,764,339,767,341,770,343,771,347,771,350,771,355,771,359,767,358,766,355,765,352,761,353,761,349,757,349,756,352,754,350,752,347,748,345,749,342,745,342,742,340,740,336,742,332,738,333,735,333,731,333,730,328,726,327,723,324,720,323,717,326,714,327,711,327,709,324,707,327,703,327,699,324,696,321,692,318,686,316,681,313,678,311,675,309,672,308,669,304,668,301,671,297,667,296,664,297,661,295,659,290,657,287,653,282,649,280,645,281,642,286,639,291,636,293,633,295,629,296,625,295,624,293,623,289,622,286,621,282,623,278,618,272,614,271,609,272,606,271,601,271,597,271,594,271,593,266,590,262,586,261,582,257,578,256,574,256,570,254,568,251,569,247,572,244,574,243,576,240,579,236,580,231,579,228,580,224,582,222,584,219,585,216,585,213,584,209,584,205,583,200,583,196,580,194,578,192,575,190,574,186,573,183,570,183,566,183,563,182,560,184,559,187,556,189,554,187,551,190,548,188,546,190,545,194,542,198,541,202,538,204,538,200,538,195,537,192,537,188,539,184,538,180,537,175,536,171,534,168,533,164,534,161,533,157,533,154,534,151,537,149,542,148,545,150,551,149,553,148,557,144,558,141,560,137,563,134,566,131,568,128,571,125,573,122,573,119,573,115,572,112,571,108,571,105,571,101,570,98,573,97,576,94,578,91,581,90,583,89,585,86,589,83,591,81,592,78,596,76,599,76,602,75,602,71,606,71,609,68,613,68,617,69,620,68,624,69,628,66,633,66,637,64,640,61,645,58,645,55,650,55,650,51,652,45,651,42,647,41,647,37,646,33,643,31,641,28,645,22,647,19,650,21,652,23,655,25,658,24,660,26" href="../att/pat_dbf23.html" target="AttributesFrame" title="TAITUDAK" alt="TAITUDAK">
+  <area shape="poly" coords="305,86,309,86,313,85,316,84,318,88,322,88,327,91,329,87,331,85,334,82,340,84,343,85,347,86,343,90,342,94,342,97,343,100,345,105,348,110,351,117,354,121,359,128,361,132,362,137,361,141,361,145,362,149,362,153,365,156,365,160,365,163,367,166,371,166,374,165,377,166,382,167,385,167,388,168,392,168,395,169,397,171,400,174,403,175,406,177,409,182,412,184,415,184,420,186,423,188,426,191,429,192,434,193,437,194,443,196,447,197,451,199,457,202,459,204,464,206,471,208,475,209,478,209,484,210,486,211,490,213,496,217,499,219,502,222,507,226,509,228,512,230,516,232,519,235,524,238,527,240,530,243,531,246,530,252,528,256,527,262,527,268,527,274,528,279,530,283,525,285,522,285,519,287,516,291,514,295,514,299,513,303,511,308,509,310,507,306,506,302,505,298,502,296,498,295,494,292,493,288,492,284,492,280,490,276,487,274,484,272,481,270,476,267,473,266,468,266,465,264,465,261,464,257,462,255,459,252,457,250,454,249,451,248,446,248,442,250,438,252,435,254,431,253,427,252,423,252,419,255,416,256,413,254,411,252,408,248,404,246,400,244,398,241,397,238,394,237,391,236,387,237,381,239,377,240,373,239,371,236,372,233,370,229,367,229,364,231,361,233,358,231,358,227,360,225,361,221,360,216,359,213,357,210,354,209,350,208,344,207,341,206,338,204,335,203,331,201,328,199,324,198,321,197,318,193,317,189,315,185,313,181,312,176,312,173,312,170,312,165,311,162,308,159,307,156,307,152,306,149,307,145,310,141,310,136,309,133,308,128,308,124,306,119,304,116,302,112,301,108,302,104,304,100,304,97,305,93,306,89" href="../att/pat_dbf25.html" target="AttributesFrame" title="DAISUA" alt="DAISUA">
+  <area shape="poly" coords="347,86,351,86,354,84,357,85,363,86,368,86,371,86,374,86,379,88,382,93,385,94,391,93,395,93,399,94,403,96,406,97,409,101,412,105,414,108,418,112,420,115,423,117,426,119,428,120,432,120,436,120,441,121,445,122,450,121,454,118,457,119,461,120,465,121,467,124,471,125,471,129,474,126,477,122,480,120,485,117,489,116,492,117,494,114,495,111,497,108,502,115,504,121,506,126,507,132,508,136,509,139,509,142,506,150,505,154,502,160,500,163,500,168,504,168,508,169,513,169,518,171,521,174,524,177,526,180,529,183,532,185,534,188,537,190,537,193,538,197,538,201,540,205,542,200,542,195,545,193,546,189,549,191,552,189,555,189,558,188,560,184,562,181,566,183,569,183,572,183,575,184,574,187,576,191,579,193,583,195,582,199,584,203,584,207,585,213,585,216,584,219,582,222,580,224,579,228,580,231,580,234,577,238,575,241,572,244,569,247,568,250,569,253,572,255,576,256,580,257,576,262,573,265,571,268,566,273,564,275,560,277,556,278,553,279,551,281,548,282,543,281,539,282,537,284,533,285,530,283,528,279,527,276,527,270,527,264,528,259,529,254,531,249,531,244,527,240,524,238,519,235,516,232,512,230,509,228,507,226,502,222,499,219,496,217,490,213,486,211,484,210,481,209,475,209,471,208,464,206,459,204,457,202,453,200,447,197,443,196,437,194,434,193,429,192,426,191,423,188,420,186,416,185,412,184,409,182,407,179,405,176,402,174,399,173,396,169,392,168,388,168,385,167,382,167,377,166,374,165,371,166,367,166,365,163,365,160,365,156,363,154,362,150,361,147,361,144,362,137,361,132,359,128,355,124,351,117,348,112,346,108,344,103,342,97,342,94,343,90,347,86" href="../att/pat_dbf26.html" target="AttributesFrame" title="BABULU" alt="BABULU">
+  <area shape="poly" coords="267,91,271,91,275,90,279,89,285,87,289,87,293,86,302,86,306,89,305,93,304,96,304,100,302,104,301,108,302,112,290,116,282,119,276,121,275,119,276,116,272,112,269,111,266,108,263,107,261,103,262,100,264,96,267,93" href="../att/pat_dbf27.html" target="AttributesFrame" title="ROTUTO" alt="ROTUTO">
+  <area shape="poly" coords="804,128,802,133,801,140,800,144,801,147,802,150,804,156,806,160,809,164,813,167,817,168,817,424,815,426,812,428,809,430,806,432,803,434,800,435,797,435,793,433,791,430,785,425,779,424,774,422,770,420,769,417,772,414,771,411,769,410,771,406,774,404,777,406,781,404,780,401,781,397,782,394,781,391,780,387,776,388,775,385,773,381,776,379,777,376,781,373,783,371,786,369,785,366,781,366,778,366,776,364,774,361,771,356,772,353,770,349,772,346,768,341,765,341,762,337,760,334,758,331,757,327,759,323,759,320,759,317,761,314,760,309,763,305,760,302,757,301,751,300,746,300,742,301,738,304,735,306,731,309,726,310,722,311,720,308,722,304,718,304,722,302,725,302,723,298,721,295,720,291,721,288,717,286,720,284,717,281,715,279,718,276,721,274,723,271,720,268,717,268,714,267,712,270,711,266,712,262,711,257,709,255,714,251,712,248,709,247,709,244,706,242,703,240,701,235,701,231,702,228,699,225,697,222,694,222,690,222,691,218,691,214,691,210,690,207,691,203,693,199,698,195,698,190,698,186,695,184,693,181,692,178,692,174,693,170,695,168,695,163,695,160,695,156,695,153,694,147,694,142,693,139,696,135,698,133,705,130,710,127,716,123,719,121,723,119,727,118,730,115,733,115,738,116,743,117,748,117,754,113,762,108,767,106,770,106,774,108,776,110,780,113,783,116,784,119,787,124,789,126,791,130,796,130,799,129,804,128" href="../att/pat_dbf28.html" target="AttributesFrame" title="MAHAKIDAN" alt="MAHAKIDAN">
+  <area shape="poly" coords="276,121,282,119,290,116,302,112,304,116,306,119,307,123,308,128,308,131,309,135,311,139,308,143,307,146,306,151,307,154,308,158,311,160,311,163,312,167,312,171,312,175,312,179,314,183,316,187,317,191,319,195,316,198,313,199,309,196,307,192,304,189,300,186,296,184,293,182,290,182,287,179,283,177,282,173,282,170,283,167,282,164,283,160,282,157,283,153,282,149,279,148,279,145,276,142,276,138,274,135,276,131,275,128,274,124,276,121" href="../att/pat_dbf29.html" target="AttributesFrame" title="GRUTU" alt="GRUTU">
+  <area shape="poly" coords="530,286,534,284,537,284,541,282,546,282,550,282,552,280,556,278,560,277,564,275,566,273,571,268,573,265,576,262,578,259,582,257,586,261,590,262,593,263,594,270,597,271,601,271,604,271,607,271,612,271,615,271,623,276,621,280,622,286,623,289,624,293,625,295,629,296,633,295,636,293,639,291,642,286,645,281,647,279,651,280,655,285,658,289,660,293,661,297,665,296,669,296,668,299,669,304,672,308,675,309,678,311,681,313,686,316,689,317,694,319,697,322,702,325,704,327,708,325,711,327,714,326,717,326,720,323,723,324,726,327,730,328,731,333,734,330,736,333,739,331,740,335,741,339,744,341,747,340,748,344,751,347,754,349,754,352,757,349,760,348,760,353,763,352,766,354,767,357,769,359,772,359,774,362,778,366,781,366,785,366,786,369,783,371,781,373,778,375,777,378,774,378,775,382,775,386,777,388,781,389,782,392,782,395,780,398,781,403,779,407,776,405,772,405,770,407,769,410,771,412,768,416,766,419,761,422,754,422,751,423,747,423,744,424,740,425,737,429,735,432,733,434,730,436,725,437,723,439,720,441,717,442,713,442,710,442,707,442,702,442,699,442,696,442,692,442,692,446,691,449,690,452,688,454,686,457,684,460,681,462,675,462,670,463,667,465,665,468,663,471,660,472,656,473,653,474,649,474,646,475,642,476,637,475,634,474,631,472,628,470,626,467,621,465,615,466,612,467,606,467,603,470,600,471,596,470,594,472,590,474,586,475,583,478,580,480,577,483,574,485,572,489,569,491,567,494,564,497,561,500,558,504,556,506,553,509,551,513,548,515,546,517,543,520,540,523,538,527,536,530,535,533,533,536,530,535,527,534,524,531,522,529,521,526,520,522,519,518,516,515,511,508,508,504,503,500,498,497,487,492,481,490,477,488,474,486,470,483,468,480,468,476,469,470,467,463,466,460,464,452,463,449,460,442,456,434,455,430,454,424,453,419,452,414,452,410,451,406,451,402,450,399,450,395,454,389,456,386,458,384,458,380,456,372,458,368,461,365,463,363,467,361,470,359,475,359,478,360,481,360,486,359,490,359,495,358,498,356,500,354,502,350,503,345,504,342,506,338,507,333,507,329,507,325,507,321,507,316,508,310,511,308,513,303,514,299,514,295,516,291,519,288,520,285,523,285,527,284,530,286" href="../att/pat_dbf30.html" target="AttributesFrame" title="BETANO" alt="BETANO">
+</map>
+</center>
+</body>
+</html>
